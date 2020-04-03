@@ -14,13 +14,13 @@ class ComposerStaticInitf4e580f38fad434f56865e50cb8325d0
     );
 
     public static $prefixLengthsPsr4 = array (
-        'R' => 
-        array (
-            'huykhoong\\AppStoreGrabber\\' => 23,
-        ),
         'P' => 
         array (
             'Psr\\Http\\Message\\' => 17,
+        ),
+        'H' => 
+        array (
+            'Huykhoong\\AppStoreGrabber\\' => 26,
         ),
         'G' => 
         array (
@@ -31,13 +31,13 @@ class ComposerStaticInitf4e580f38fad434f56865e50cb8325d0
     );
 
     public static $prefixDirsPsr4 = array (
-        'huykhoong\\AppStoreGrabber\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
-        ),
         'Psr\\Http\\Message\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/http-message/src',
+        ),
+        'Huykhoong\\AppStoreGrabber\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
         'GuzzleHttp\\Psr7\\' => 
         array (
