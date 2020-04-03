@@ -1,0 +1,21 @@
+{
+    "name": "huykhoong/app-store-scrape",
+    "description": "A Simple Way To Get AppStore Info",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Huykhoong",
+            "email": "ihnep11@gmail.com",
+            "homepage": "http://huykhong.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Huykhoong\\AppStoreScrape\\": "src"
+        }
+    }
+}
