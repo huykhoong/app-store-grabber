@@ -1,26 +1,26 @@
-<h1 align="center"> AppStore-Scrape </h1>
+<h1 align="center"> AppStore-grabber </h1>
 
-[![Latest Stable Version](https://poser.pugx.org/huykhoong/app-store-scrape/v/stable)](https://packagist.org/packages/huykhoong/app-store-scrape) 
-[![Total Downloads](https://poser.pugx.org/huykhoong/app-store-scrape/downloads)](https://packagist.org/packages/huykhoong/app-store-scrape)
-[![Latest Unstable Version](https://poser.pugx.org/huykhoong/app-store-scrape/v/unstable)](https://packagist.org/packages/huykhoong/app-store-scrape)
-[![License](https://poser.pugx.org/huykhoong/app-store-scrape/license)](https://packagist.org/packages/huykhoong/app-store-scrape)
-[![Monthly Downloads](https://poser.pugx.org/huykhoong/app-store-scrape/d/monthly)](https://packagist.org/packages/huykhoong/app-store-scrape)
-[![Daily Downloads](https://poser.pugx.org/huykhoong/app-store-scrape/d/daily)](https://packagist.org/packages/huykhoong/app-store-scrape)
+[![Latest Stable Version](https://poser.pugx.org/huykhoong/app-store-grabber/v/stable)](https://packagist.org/packages/huykhoong/app-store-grabber) 
+[![Total Downloads](https://poser.pugx.org/huykhoong/app-store-grabber/downloads)](https://packagist.org/packages/huykhoong/app-store-grabber)
+[![Latest Unstable Version](https://poser.pugx.org/huykhoong/app-store-grabber/v/unstable)](https://packagist.org/packages/huykhoong/app-store-grabber)
+[![License](https://poser.pugx.org/huykhoong/app-store-grabber/license)](https://packagist.org/packages/huykhoong/app-store-grabber)
+[![Monthly Downloads](https://poser.pugx.org/huykhoong/app-store-grabber/d/monthly)](https://packagist.org/packages/huykhoong/app-store-grabber)
+[![Daily Downloads](https://poser.pugx.org/huykhoong/app-store-grabber/d/daily)](https://packagist.org/packages/huykhoong/app-store-grabber)
 
 
 ```shell
-$ composer require huykhoong/app-store-scrape -vvv
+$ composer require huykhoong/app-store-grabber -vvv
 ```
 
 
 ```php
-use huykhoong\AppStoreScrape\AppStore;
+use huykhoong\AppStoregrabber\AppStore;
 
 $entity = 'software'; // Software App
 $country = 'us'; // Support language: https://rss.itunes.apple.com/en-us/language
 $appId = '292374531'; // App ID from URL
 
-// Scrape APp info from ID
+// grabber APp info from ID
 $app = AppStore::App()->getApp($appId,$entity,$country);
 
 // Get comment
