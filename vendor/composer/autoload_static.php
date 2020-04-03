@@ -16,7 +16,7 @@ class ComposerStaticInitf4e580f38fad434f56865e50cb8325d0
     public static $prefixLengthsPsr4 = array (
         'R' => 
         array (
-            'huykhoong\\AppStoreScrape\\' => 23,
+            'huykhoong\\AppStoreGrabber\\' => 23,
         ),
         'P' => 
         array (
@@ -31,7 +31,7 @@ class ComposerStaticInitf4e580f38fad434f56865e50cb8325d0
     );
 
     public static $prefixDirsPsr4 = array (
-        'huykhoong\\AppStoreScrape\\' => 
+        'huykhoong\\AppStoreGrabber\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),

@@ -1,5 +1,5 @@
 {
-    "name": "huykhoong/app-store-scrape",
+    "name": "huykhoong/app-store-grabber",
     "description": "A Simple Way To Get AppStore Info",
     "license": "MIT",
     "authors": [
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Huykhoong\\AppStoreScrape\\": "src"
+            "Huykhoong\\AppStoreGrabber\\": "src"
         }
     }
 }

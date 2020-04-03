@@ -1,7 +1,7 @@
 <?php
 
 
-namespace huykhoong\AppStoreScrape\Lib;
+namespace huykhoong\AppStoreGrabber\Lib;
 
 
 class Search extends App

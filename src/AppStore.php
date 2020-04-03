@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Huykhoong\AppStoreScrape;
+namespace Huykhoong\AppStoreGrabber;
 
 
 class AppStore
@@ -14,7 +14,7 @@ class AppStore
      */
     public static function make($name, array $config = NULL)
     {
-        $application = "\\Huykhoong\\AppStoreScrape\\Lib\\$name";
+        $application = "\\Huykhoong\\AppStoreGrabber\\Lib\\$name";
 
         return new $application($config);
     }

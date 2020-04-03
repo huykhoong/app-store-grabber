@@ -1,9 +1,9 @@
 <?php
 
 
-namespace Huykhoong\AppStoreScrape\Lib;
+namespace Huykhoong\AppStoreGrabber\Lib;
 
-use Huykhoong\AppStoreScrape\Exceptions\HttpException;
+use Huykhoong\AppStoreGrabber\Exceptions\HttpException;
 
 class App extends Scrape
 {

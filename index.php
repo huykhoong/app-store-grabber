@@ -2,7 +2,7 @@
 
 require 'vendor/autoload.php';
 
-use Huykhoong\AppStoreScrape\AppStore;
+use Huykhoong\AppStoreGrabber\AppStore;
 
 $entity = 'software'; // Software App
 $country = 'us'; // Support language: https://rss.itunes.apple.com/en-us/language
